@@ -1,5 +1,17 @@
+
 def reverse_string(str)
-  # type your code in here
+
+  len = str.length
+  rev = ""
+  i = str.length - 1
+  while i >= 0
+    rev << str[i]
+    i -= 1
+    
+  end
+
+  rev
+
 end
 
 if __FILE__ == $PROGRAM_NAME
@@ -16,3 +28,5 @@ end
 
 # Please add your pseudocode to this file
 # And a written explanation of your solution
+# str.length gets you the length of the variable... then we set i to that and go backwards
+# i used a while loop
